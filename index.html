@@ -1,25 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="icon" href="Icon.png" type="image/x-icon">
+    <link rel="icon" href="Icon2.png" type="image/x-Icon2">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Laba1</title>
+    <link rel="stylesheet" href="style/reset.css">
+    <link rel="stylesheet" href="style/style.css">
+    <title>Laba2</title>
 </head>
 <body>
-    <h1>Список дел</h1>
-    <div></div>
-        <input type="text" placeholder="Новый элемент списка" />
-        <button type="Reset">Создать</button>
-        <button type="Submit">Очитсить все</button>
-    </div> 
-    <div>
-        <ol>
-            <li><input type="checkbox" />Почесать кошку <button type="button">&#10060</button></li>
-            <li><input type="checkbox" />Полить картошку <button type="button">&#10060</button></li>
-            <li><input type="checkbox" />Сложить в лукошко<button type="button">&#10060</button></li>
-          </ol>
+    <div class="container">
+        <div class="main">
+            <h1 class="main-title">Список дел</h1>
+            <div class="main-fields">
+                <input class="main-input" type="text" placeholder="Новый элемент списка" />
+                <button class="create button" type="Reset">Создать</button>
+                <button class="clear button" type="Submit">Очитсить все</button>
+            </div>
+            <ol class="List">
+                <li class="Scroll"><div class="tv1"><input type="checkbox" /><p>Почесать кошку</p></div><button class="bt" type="button">✖</button></li>
+                <li class="Scroll"><div class="tv1"><input type="checkbox" /><p>Полить картошку</p></div><button class="bt" type="button">✖</button></li>
+                <li class="Scroll"><div class="tv1"><input type="checkbox" /><p>Сложить в лукошко</p></div><button class="bt" type="button">✖</button></li>
+                <li class="Scroll"><div class="tv1"><input type="checkbox" /><p>Почесать кошку</p></div><button class="bt" type="button">✖</button></li>
+                <li class="Scroll"><div class="tv1"><input type="checkbox" /><p>Полить картошку</p></div><button class="bt" type="button">✖</button></li>
+                <li class="Scroll"><div class="tv1"><input type="checkbox" /><p>Сложить в лукошко</p></div><button class="bt" type="button">✖</button></li><li class="Scroll"><div class="tv1"><input type="checkbox" /><p>Почесать кошку</p></div><button class="bt" type="button">✖</button></li>
+                <li class="Scroll"><div class="tv1"><input type="checkbox" /><p>Полить картошку</p></div><button class="bt" type="button">✖</button></li>
+                <li class="Scroll"><div class="tv1"><input type="checkbox" /><p>Сложить в лукошко</p></div><button class="bt" type="button">✖</button></li><li class="Scroll"><div class="tv1"><input type="checkbox" /><p>Почесать кошку</p></div><button class="bt" type="button">✖</button></li>
+                <li class="Scroll"><div class="tv1"><input type="checkbox" /><p>Полить картошку</p></div><button class="bt" type="button">✖</button></li>
+                <li class="Scroll"><div class="tv1"><input type="checkbox" /><p>Сложить в лукошко</p></div><button class="bt" type="button">✖</button></li><li class="Scroll"><div class="tv1"><input type="checkbox" /><p>Почесать кошку</p></div><button class="bt" type="button">✖</button></li>
+                <li class="Scroll"><div class="tv1"><input type="checkbox" /><p>Полить картошку</p></div><button class="bt" type="button">✖</button></li>
+                <li class="Scroll"><div class="tv1"><input type="checkbox" /><p>Сложить в лукошко</p></div><button class="bt" type="button">✖</button></li><li class="Scroll"><div class="tv1"><input type="checkbox" /><p>Почесать кошку</p></div><button class="bt" type="button">✖</button></li>
+                <li class="Scroll"><div class="tv1"><input type="checkbox" /><p>Полить картошку</p></div><button class="bt" type="button">✖</button></li>
+                <li class="Scroll"><div class="tv1"><input type="checkbox" /><p>Сложить в лукошко</p></div><button class="bt" type="button">✖</button></li>
+            </ol>
+        </div>
+        <footer class="Bunker">Copyright &copy;</footer>
     </div>
-    <footer style="border-top: 1px solid black; padding-top: 10px;">Copyright &copy;</footer>
+    <script src="js/script.js"></script>
 </body>
 </html>
